@@ -381,7 +381,7 @@
 .copyrighting {
     color: #666666;
     padding-top: 15px;
-    padding-left: 120px;    
+    padding-left: 120px;
 
 }
 
@@ -389,7 +389,7 @@
     padding-left: 700px;
     display: flex;
     padding-top: 50px;
-    
+
 }
 
 li {
@@ -404,7 +404,7 @@ li a {
 
 .list_faq ul li {
     margin-left: 25px;
-    
+
     margin-top: 40px;
 }
 
@@ -419,4 +419,21 @@ li a {
 .social_links {
     padding-top: 90px;
     padding-left: 40px;
+}
+
+a {
+    transition: 0.3s;
+}
+
+a:hover {
+    color: pink;
+    text-shadow: 0px -4px 10px rgba(179, 210, 98, 0.43);
+}
+
+
+
+.social_links ul li a:hover {
+    -webkit-box-shadow: 0px 0px 82px 12px rgba(255, 192, 203, 0.83);
+    -moz-box-shadow: 0px 0px 82px 12px rgba(255, 192, 203, 0.83);
+    box-shadow: 0px 0px 82px 12px rgba(255, 192, 203, 0.83);
 }
