@@ -294,7 +294,7 @@
     color: #000;
     padding-top: 70px;
 
-    font-family: Libre Franklin;
+    font-family: 'Libre Franklin', sans-serif;
     font-size: 19px;
     font-style: normal;
     font-weight: 700;
@@ -305,7 +305,7 @@
     color: #5AB963;
     padding-top: 15px;
     text-align: center;
-    font-family: IBM Plex Mono;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -314,6 +314,126 @@
 }
 
 .container-main_2 {
-    border: 1px solid black;
+    padding-top: 25px;
+
+}
+
+.undersup_title,
+#need_bold {
+    color: #5AB963;
+    font-size: 21px;
+    padding-left: 135px;
+    padding-top: 200px;
+}
+
+.sup {
+    display: flex;
+}
+
+.sup_text {
+    color: #000;
+    padding-top: 18px;
+    padding-left: 135px;
+    padding-right: 880px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px
+}
+
+.sup_link {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    border: 0px solid;
+    padding: 20px 40px;
+    border-radius: 4px;
+    background-color: #5AB963;
+    transition: 1s;
+
+}
+
+.sup_link:hover {
+    -webkit-box-shadow: 0px 0px 43px 13px rgba(119, 204, 35, 0.2);
+    -moz-box-shadow: 0px 0px 43px 13px rgba(119, 204, 35, 0.2);
+    box-shadow: 0px 0px 43px 13px rgba(55, 65, 109, 0.2);
+    text-shadow: 2px 3px 0px rgba(168, 220, 156, 0.58);
+}
+
+.footer-main {
+    background: #0A0E1A;
+    width: 1920px;
+    height: 399px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.footer_logo {
+    padding-left: 120px;
     padding-top: 135px;
+}
+
+.copyrighting {
+    color: #666666;
+    padding-top: 15px;
+    padding-left: 120px;
+
+}
+
+.list_faq {
+    padding-left: 700px;
+    display: flex;
+    padding-top: 50px;
+
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.list_faq ul li {
+    margin-left: 25px;
+
+    margin-top: 40px;
+}
+
+.social_links ul {
+    display: flex;
+}
+
+.social_links ul li {
+    padding-left: 20px;
+}
+
+.social_links {
+    padding-top: 90px;
+    padding-left: 40px;
+}
+
+a {
+    transition: 0.3s;
+}
+
+a:hover {
+    color: pink;
+    text-shadow: 0px -4px 10px rgba(179, 210, 98, 0.43);
+}
+
+
+
+.social_links ul li a:hover {
+    -webkit-box-shadow: 0px 0px 82px 12px rgba(255, 192, 203, 0.83);
+    -moz-box-shadow: 0px 0px 82px 12px rgba(255, 192, 203, 0.83);
+    box-shadow: 0px 0px 82px 12px rgba(255, 192, 203, 0.83);
 }
